@@ -62,6 +62,8 @@ public class Weapon : MonoBehaviour
 
     public virtual void MainButtonFunction(){}
 
+    public virtual void MainButtonReleaseFunction(){}
+
     public virtual void SecondaryButtonFunction(){}
 
     public void setHand(Hand h)

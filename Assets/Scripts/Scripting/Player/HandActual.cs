@@ -61,6 +61,7 @@ public class HandActual : MonoBehaviour
         }
         else if (!pressed1 && button1Pressed)
         {
+            weapon.MainButtonReleaseFunction();
             button1Pressed = false;
         }
 
